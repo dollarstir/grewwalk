@@ -15,8 +15,14 @@ $rr = fetchAll('practiceareas');
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
 		============================================ -->
-        <link rel="shortcut icon" href="/main/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/main/img/favicon.ico" type="image/x-icon">
+        <?php
+$a = new Sel();
+$appfavicon = $a->getall('settings');
+
+$favicon = $appfavicon[0]['favicon'];
+?>
+<link rel="shortcut icon" href="yolkassets/upload/'.$favicon.'" type="image/png">
+<link rel="icon" href="yolkassets/upload/'.$favicon.'" type="image/png">
 
         <!-- Bootstrap CSS
 		============================================ -->

@@ -108,9 +108,7 @@ echo '
                                     
                                 </ul>
                             </li>
-                            <li>
-                                <a href="'.nel('awards').'">Awards</a>
-                            </li>
+                            
                             
                             
                             <li>
@@ -159,9 +157,7 @@ echo '
                                     
                                 </ul>
                             </li>
-                            <li>
-                                <a href="'.nel('awards').'">Awards</a>
-                            </li>
+                           
                             
                             
                             <li>

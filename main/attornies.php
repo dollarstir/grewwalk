@@ -1,6 +1,11 @@
 <?php involve('title.php');
 $a = new Sel();
 $re = $a->getall('attorney');
+
+// $a = new Sel();
+$appfavicon = $a->getall('settings');
+
+$favicon = $appfavicon[0]['favicon'];
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -14,10 +19,7 @@ $re = $a->getall('attorney');
         <!-- favicon
 		============================================ -->
         <?php
-$a = new Sel();
-$appfavicon = $a->getall('settings');
 
-$favicon = $appfavicon[0]['favicon'];
 ?>
 <link rel="shortcut icon" href="yolkassets/upload/<?php $favicon; ?>" type="image/png">
 <link rel="icon" href="yolkassets/upload/<?php $favicon; ?>" type="image/png">

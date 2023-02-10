@@ -5,8 +5,6 @@ $appfavicon = $a->getall('settings');
 
 $favicon = $appfavicon[0]['favicon'];
 
-
-
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -20,8 +18,8 @@ $favicon = $appfavicon[0]['favicon'];
         <!-- favicon
 		============================================ -->
       
-<link rel="shortcut icon" href="yolkassets/upload/<?php $favicon; ?>" type="image/png">
-<link rel="icon" href="yolkassets/upload/<?php $favicon; ?>" type="image/png">
+<link rel="shortcut icon" href="yolkassets/upload/favicon321675875426axesdfd63e3d462bc0ca.png" type="image/png">
+<link rel="icon" href="yolkassets/upload/favicon321675875426axesdfd63e3d462bc0ca.png" type="image/png">
 
         <!-- Bootstrap CSS
 		============================================ -->
